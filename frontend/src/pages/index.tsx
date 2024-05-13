@@ -1,3 +1,11 @@
+import CountryList from "@/components/CountryList";
+import Form from "@/components/Form";
+
 export default function Home() {
-  return <h1>Hello, wilder !</h1>;
+  return (
+    <div>
+      <Form />
+      <CountryList />
+    </div>
+  );
 }
